@@ -2,6 +2,8 @@ using Application.Customers.Create;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using ErrorOr;
+using Application.Customers.GetAll;
+using Application.Customers.GetById;
 
 
 namespace Web.API.Controllers;
@@ -15,27 +17,27 @@ public class Customers : ApiController
     {
         _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
     }
-    //[HttpGet]
-    //public async Task<IActionResult> GetAll()
-    //{
-    //    var customersResult = await _mediator.Send(new GetAllCustomersQuery());
+    [HttpGet]
+    public async Task<IActionResult> GetAll()
+    {
+        var customersResult = await _mediator.Send(new GetAllCustomersQuery());
 
-    //    return customersResult.Match(
-    //        customers => Ok(customers),
-    //        errors => Problem(errors)
-    //    );
-    //}
+        return customersResult.Match(
+            customers => Ok(customers),
+            errors => Problem(errors)
+        );
+    }
 
-    //[HttpGet("{id}")]
-    //public async Task<IActionResult> GetById(Guid id)
-    //{
-    //    var customerResult = await _mediator.Send(new GetCustomerByIdQuery(id));
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetById(Guid id)
+    {
+        var customerResult = await _mediator.Send(new GetCustomerByIdQuery(id));
 
-    //    return customerResult.Match(
-    //        customer => Ok(customer),
-    //        errors => Problem(errors)
-    //    );
-    //}
+        return customerResult.Match(
+            customer => Ok(customer),
+            errors => Problem(errors)
+        );
+    }
 
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] CreateCustomerCommand command)
