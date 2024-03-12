@@ -62,8 +62,7 @@
               "RelativeToolTip": "src\\Application\\Cars\\Common\\GetRentResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T18:41:54.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T18:41:54.684Z"
             },
             {
               "$type": "Document",
@@ -73,7 +72,7 @@
               "RelativeDocumentMoniker": "src\\Web.API\\Controllers\\CarsController.cs",
               "ToolTip": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Web.API\\Controllers\\CarsController.cs",
               "RelativeToolTip": "src\\Web.API\\Controllers\\CarsController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAqwCoAAAAQAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAqwCMAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-12T18:37:27.842Z",
               "EditorCaption": ""
@@ -88,8 +87,7 @@
               "RelativeToolTip": "src\\Domain\\Cars\\ICarRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T18:37:10.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T18:37:10.429Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "src\\Application\\Cars\\GetByZipCode\\GetGetByZipCodeQueryHandler.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAArwBUAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T18:36:54.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T18:36:54.193Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "src\\Infrastructure\\Persistence\\Repositories\\RentCarRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T18:35:57.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T18:35:57.571Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "src\\Infrastructure\\Persistence\\Repositories\\CarRepository.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAawBgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T18:34:37.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T18:34:37.837Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "src\\Application\\Customers\\GetAll\\GetAllCustomersQueryHandler.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAA0wBMAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T18:28:54.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T18:28:54.613Z"
             },
             {
               "$type": "Document",
@@ -153,8 +147,7 @@
               "RelativeToolTip": "src\\Application\\Cars\\GetRentCar\\GetRentCarQueryHandler.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAYwBUAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T18:18:48.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T18:18:48.768Z"
             },
             {
               "$type": "Document",
@@ -166,8 +159,7 @@
               "RelativeToolTip": "src\\Application\\Cars\\GetRentCar\\GetRentCarQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T18:18:05.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T18:18:05.856Z"
             },
             {
               "$type": "Document",
@@ -179,8 +171,7 @@
               "RelativeToolTip": "src\\Application\\Cars\\RentCar\\RentCarCommandHandler.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAswCkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T18:18:28.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T18:18:28.421Z"
             }
           ]
         }
