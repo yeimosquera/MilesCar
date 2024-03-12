@@ -8,7 +8,7 @@ clientes encontrar vehículos disponibles de manera eficiente y precisa.
 
 Se ha desarrollado una API web utilizando una combinación de componentes para .NET 7 con el fin de crear una plataforma sólida y escalable. A continuación, se proporciona una breve explicación de cada uno de los componentes utilizados:
 
-**.NET 7: **.NET es un framework de desarrollo de software de Microsoft que proporciona un entorno poderoso y flexible para la creación de aplicaciones web y servicios.
+**.NET 7:** .NET es un framework de desarrollo de software de Microsoft que proporciona un entorno poderoso y flexible para la creación de aplicaciones web y servicios.
 
 **Moq framework for .NET:** Moq es un framework de pruebas unitarias para .NET que permite crear objetos simulados (mocks) para realizar pruebas automatizadas de componentes de manera aislada.
 
@@ -16,9 +16,9 @@ Se ha desarrollado una API web utilizando una combinación de componentes para .
 
 **FluentValidation:** FluentValidation es una librería que permite definir reglas de validación de forma clara y expresiva mediante el uso de constructores fluidos, simplificando así el proceso de validación de datos en la API.
 
-**ErrorOr: **ErrorOr es una biblioteca que proporciona un contenedor para encapsular resultados exitosos o errores en operaciones asíncronas, lo que facilita la gestión de errores de manera más consistente en el código.
+**ErrorOr:** ErrorOr es una biblioteca que proporciona un contenedor para encapsular resultados exitosos o errores en operaciones asíncronas, lo que facilita la gestión de errores de manera más consistente en el código.
 
-**MediatR: **MediatR es una implementación del patrón Mediator que simplifica la comunicación entre componentes de la aplicación mediante el envío de solicitudes y la ejecución de manejadores específicos para esas solicitudes, mejorando la modularidad y el mantenimiento del código.
+**MediatR:** MediatR es una implementación del patrón Mediator que simplifica la comunicación entre componentes de la aplicación mediante el envío de solicitudes y la ejecución de manejadores específicos para esas solicitudes, mejorando la modularidad y el mantenimiento del código.
 
 **EntityFrameworkCore.SqlServer:** Entity Framework Core es un ORM (Mapeo Objeto-Relacional) para .NET que simplifica el acceso y manipulación de datos en una base de datos relacional. La extensión EntityFrameworkCore.SqlServer permite la interacción específica con bases de datos SQL Server.
 
@@ -36,7 +36,7 @@ Se utilizaron pruebas unitarias (UnitTests) para verificar el comportamiento ind
 
 **Customers Controller:** Este controlador maneja la lógica relacionada con los clientes y contiene los siguientes métodos:
 
-- **Create: **Este método se encarga de crear un nuevo cliente en el sistema.
+- **Create:** Este método se encarga de crear un nuevo cliente en el sistema.
 - **GetAll:** Retorna todos los clientes almacenados en el sistema.
 - **GetById/{id}:** Recupera un cliente específico del sistema basado en su identificador único (ID).
 
