@@ -4,8 +4,8 @@ namespace Domain.ValueObjects;
 
 public partial record PhoneNumber
 {
-    private const int DefaultLenght = 9;
-    private const string Pattern = @"^(?:-*\d-*){8}$";
+    private const int DefaultLenght = 10;
+    private const string Pattern = @"^[0-9]+";
 
     private PhoneNumber(string value) => Value = value;
 

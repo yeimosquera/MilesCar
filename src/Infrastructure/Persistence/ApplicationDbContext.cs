@@ -1,6 +1,8 @@
 using Application.Data;
+using Domain.Cars;
 using Domain.Customers;
 using Domain.Primitives;
+using Domain.RentCars;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,6 +18,9 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext, IUnitOfWor
     }
 
     public DbSet<Customer> Customers { get; set; }
+    public DbSet<Car> Cars { get; set; }
+    public DbSet<RentCar> RentCars { get; set; }
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

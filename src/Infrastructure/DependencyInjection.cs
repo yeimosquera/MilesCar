@@ -6,6 +6,8 @@ using Infrastructure.Persistence.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
+using Domain.Cars;
+using Domain.RentCars;
 
 namespace Infrastructure;
 
@@ -29,6 +31,8 @@ public static class DependencyInjection
                 sp.GetRequiredService<ApplicationDbContext>());
 
         services.AddScoped<ICustomerRepository, CustomerRepository>();
+        services.AddScoped<ICarRepository, CarRepository>();
+        services.AddScoped<IRentCarRepository, RentCarRepository>();
 
         return services;
     }

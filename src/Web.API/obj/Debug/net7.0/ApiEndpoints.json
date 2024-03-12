@@ -1,18 +1,72 @@
 [
   {
-    "ContainingType": "Web.API.Controllers.Customers",
-    "Method": "GetAll",
-    "RelativePath": "customers",
+    "ContainingType": "Web.API.Controllers.Cars",
+    "Method": "Create",
+    "RelativePath": "Cars/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Application.Cars.Create.CreateCarCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.API.Controllers.Cars",
+    "Method": "ByZipCode",
+    "RelativePath": "Cars/GetByZipCode/{zipcode}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "zipcode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.API.Controllers.Cars",
+    "Method": "GetRentCar",
+    "RelativePath": "Cars/GetRentCar/{plate}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plate",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.API.Controllers.Cars",
+    "Method": "RentCar",
+    "RelativePath": "Cars/RentCar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Application.Cars.RentCar.RentCarCommand",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "Web.API.Controllers.Customers",
     "Method": "Create",
-    "RelativePath": "customers",
+    "RelativePath": "Customers/Create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -27,8 +81,18 @@
   },
   {
     "ContainingType": "Web.API.Controllers.Customers",
+    "Method": "GetAll",
+    "RelativePath": "Customers/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.API.Controllers.Customers",
     "Method": "GetById",
-    "RelativePath": "customers/{id}",
+    "RelativePath": "Customers/GetById/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -40,25 +104,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Web.API.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Web.API.WeatherForecast, Web.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
   }
 ]

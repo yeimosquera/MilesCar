@@ -116,3 +116,4 @@ C:\Users\yeisonh\Documents\MilesCar\MilesCar\tests\UnitTests\Application.Custome
 C:\Users\yeisonh\Documents\MilesCar\MilesCar\tests\UnitTests\Application.Customers.UnitTests\obj\Debug\net7.0\Application.Customers.UnitTests.pdb
 C:\Users\yeisonh\Documents\MilesCar\MilesCar\tests\UnitTests\Application.Customers.UnitTests\obj\Debug\net7.0\Application.Customers.UnitTests.genruntimeconfig.cache
 C:\Users\yeisonh\Documents\MilesCar\MilesCar\tests\UnitTests\Application.Customers.UnitTests\obj\Debug\net7.0\ref\Application.Customers.UnitTests.dll
+C:\Users\yeisonh\Documents\MilesCar\MilesCar\tests\UnitTests\Application.Customers.UnitTests\obj\Debug\net7.0\Application.Customers.UnitTests.sourcelink.json

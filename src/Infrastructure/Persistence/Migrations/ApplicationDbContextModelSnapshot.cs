@@ -47,8 +47,8 @@ namespace Infrastructure.Persistence.Migrations
 
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
-                        .HasMaxLength(9)
-                        .HasColumnType("nvarchar(9)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.HasKey("Id");
 
@@ -73,7 +73,7 @@ namespace Infrastructure.Persistence.Migrations
                             b1.Property<string>("Country")
                                 .IsRequired()
                                 .HasMaxLength(3)
-                                .HasColumnType("nvarchar(3)");
+                                .HasColumnType("nvarchar(30)");
 
                             b1.Property<string>("Line1")
                                 .IsRequired()

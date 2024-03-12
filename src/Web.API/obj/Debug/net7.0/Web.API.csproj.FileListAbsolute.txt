@@ -175,3 +175,6 @@ C:\Users\yeisonh\Documents\MilesCar\MilesCar\src\Web.API\obj\Debug\net7.0\Web.AP
 C:\Users\yeisonh\Documents\MilesCar\MilesCar\src\Web.API\obj\Debug\net7.0\Web.API.genruntimeconfig.cache
 C:\Users\yeisonh\Documents\MilesCar\MilesCar\src\Web.API\obj\Debug\net7.0\ref\Web.API.dll
 C:\Users\yeisonh\Documents\MilesCar\MilesCar\src\Web.API\obj\Debug\net7.0\Web.API.sourcelink.json
+C:\Users\yeisonh\Documents\MilesCar\MilesCar\src\Web.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\yeisonh\Documents\MilesCar\MilesCar\src\Web.API\bin\Debug\net7.0\Web.API.xml
+C:\Users\yeisonh\Documents\MilesCar\MilesCar\src\Web.API\obj\Debug\net7.0\Web.API.xml

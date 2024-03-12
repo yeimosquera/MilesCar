@@ -30,7 +30,7 @@ public class CustomerConfiguration : IEntityTypeConfiguration<Customer>
         builder.Property(c => c.PhoneNumber).HasConversion(
             phoneNumber => phoneNumber.Value,
             value => PhoneNumber.Create(value)!)
-            .HasMaxLength(9);
+            .HasMaxLength(10);
 
         builder.OwnsOne(c => c.Address, addressBuilder => {
 

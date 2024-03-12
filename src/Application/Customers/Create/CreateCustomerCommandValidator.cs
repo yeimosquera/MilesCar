@@ -23,7 +23,7 @@ public class CreateCustomerCommandValidator : AbstractValidator<CreateCustomerCo
 
         RuleFor(r => r.PhoneNumber)
              .NotEmpty()
-             .MaximumLength(9)
+             .MaximumLength(10)
              .WithName("Phone Number");
 
         RuleFor(r => r.Country)

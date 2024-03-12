@@ -4,11 +4,13 @@ using Microsoft.AspNetCore.Mvc;
 using ErrorOr;
 using Application.Customers.GetAll;
 using Application.Customers.GetById;
+using Swashbuckle.AspNetCore.Annotations;
 
 
 namespace Web.API.Controllers;
 
-[Route("customers")]
+
+[Route("Customers")]
 public class Customers : ApiController
 {
     private readonly ISender _mediator;
@@ -17,7 +19,45 @@ public class Customers : ApiController
     {
         _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
     }
-    [HttpGet]
+
+    /// <summary>
+    /// Crea un cliente
+    /// </summary>
+    /// <returns>Se creó un nuevo cliente</returns>
+    /// <remarks>
+    /// Solicitud de muestra:
+    ///
+    ///     POST
+    ///     {
+    ///         "name": "YEISON",
+    ///         "lastName": "HINESTROZA MOSQUERA",
+    ///         "email": "YEIMOSQUERA1995@GMAIL.COM",
+    ///         "phoneNumber": "3116603530",
+    ///         "country": "COLOMBIA",
+    ///         "line1": "BARRIO EL POBLADO",
+    ///         "line2": "EL PARQUE",
+    ///         "city": "MEDELLIN",
+    ///         "state": "ANTIOQUIA",
+    ///         "zipCode": "05001"
+    ///     }
+    ///
+    /// </remarks>
+    [HttpPost("Create")]
+    public async Task<IActionResult> Create([FromBody] CreateCustomerCommand command)
+    {
+        var createResult = await _mediator.Send(command);
+
+        return createResult.Match(
+            customerId => Ok(customerId),
+            errors => Problem(errors)
+        );
+    }
+
+    /// <summary>
+    /// Obtiene todos los clientes
+    /// </summary>
+    /// <returns></returns>
+    [HttpGet("GetAll")]
     public async Task<IActionResult> GetAll()
     {
         var customersResult = await _mediator.Send(new GetAllCustomersQuery());
@@ -28,7 +68,10 @@ public class Customers : ApiController
         );
     }
 
-    [HttpGet("{id}")]
+    /// <summary>
+    /// Obtiene un cliente por el Id
+    /// </summary>
+    [HttpGet("GetById/{id}")]
     public async Task<IActionResult> GetById(Guid id)
     {
         var customerResult = await _mediator.Send(new GetCustomerByIdQuery(id));
@@ -39,16 +82,7 @@ public class Customers : ApiController
         );
     }
 
-    [HttpPost]
-    public async Task<IActionResult> Create([FromBody] CreateCustomerCommand command)
-    {
-        var createResult = await _mediator.Send(command);
-
-        return createResult.Match(
-            customerId => Ok(customerId),
-            errors => Problem(errors)
-        );
-    }
+    
 
     //[HttpPut("{id}")]
     //public async Task<IActionResult> Update(Guid id, [FromBody] UpdateCustomerCommand command)

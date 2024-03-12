@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KEVfHeSu3K6pcIk64EuggQQ9OrTOrHfs/+M8ftV8BskoX7IIgDoh3wc3DjmzW94CsHwmQ/QhG90EPkuwpNgy1A==",
+  "dgSpecHash": "5VSGTC6E6vRWLXF72xmyUqO2z6lFGJtc3VSP/FXiAmUU6NuIH3GDR8Q3WYSWgcpCB2n3LrYwdU6w3heD0+RP2w==",
   "success": true,
   "projectFilePath": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Web.API\\Web.API.csproj",
   "expectedPackageFiles": [
@@ -51,6 +51,7 @@
     "C:\\Users\\yeisonh\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\yeisonh\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\yeisonh\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\yeisonh\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.5.0\\swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
     "C:\\Users\\yeisonh\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\yeisonh\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\yeisonh\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",

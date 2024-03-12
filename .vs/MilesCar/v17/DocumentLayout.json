@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{565B696F-2EB9-45EA-A349-1609A62C7195}|src\\Web.API\\Web.API.csproj|c:\\users\\yeisonh\\documents\\milescar\\milescar\\src\\web.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{565B696F-2EB9-45EA-A349-1609A62C7195}|src\\Web.API\\Web.API.csproj|solutionrelative:src\\web.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{565B696F-2EB9-45EA-A349-1609A62C7195}|src\\Web.API\\Web.API.csproj|c:\\users\\yeisonh\\documents\\milescar\\milescar\\src\\web.api\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565B696F-2EB9-45EA-A349-1609A62C7195}|src\\Web.API\\Web.API.csproj|solutionrelative:src\\web.api\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{722EA625-AC28-4E08-BC3A-BA352383561B}|src\\Application\\Application.csproj|c:\\users\\yeisonh\\documents\\milescar\\milescar\\src\\application\\customers\\getbyid\\getcustomerbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{722EA625-AC28-4E08-BC3A-BA352383561B}|src\\Application\\Application.csproj|solutionrelative:src\\application\\customers\\getbyid\\getcustomerbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{722EA625-AC28-4E08-BC3A-BA352383561B}|src\\Application\\Application.csproj|c:\\users\\yeisonh\\documents\\milescar\\milescar\\src\\application\\cars\\common\\getrentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{722EA625-AC28-4E08-BC3A-BA352383561B}|src\\Application\\Application.csproj|solutionrelative:src\\application\\cars\\common\\getrentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{722EA625-AC28-4E08-BC3A-BA352383561B}|src\\Application\\Application.csproj|c:\\users\\yeisonh\\documents\\milescar\\milescar\\src\\application\\cars\\getrentcar\\getrentcarquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{722EA625-AC28-4E08-BC3A-BA352383561B}|src\\Application\\Application.csproj|solutionrelative:src\\application\\cars\\getrentcar\\getrentcarquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{722EA625-AC28-4E08-BC3A-BA352383561B}|src\\Application\\Application.csproj|c:\\users\\yeisonh\\documents\\milescar\\milescar\\src\\application\\cars\\getrentcar\\getrentcarqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{722EA625-AC28-4E08-BC3A-BA352383561B}|src\\Application\\Application.csproj|solutionrelative:src\\application\\cars\\getrentcar\\getrentcarqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{827CD91F-C32A-43A2-BC36-FA957B6F7447}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\yeisonh\\documents\\milescar\\milescar\\src\\infrastructure\\persistence\\repositories\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{827CD91F-C32A-43A2-BC36-FA957B6F7447}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\persistence\\repositories\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2A5ECA2-BBAA-4C59-9E0A-D07640FBC50C}|src\\Domain\\Domain.csproj|c:\\users\\yeisonh\\documents\\milescar\\milescar\\src\\domain\\cars\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2A5ECA2-BBAA-4C59-9E0A-D07640FBC50C}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\cars\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{722EA625-AC28-4E08-BC3A-BA352383561B}|src\\Application\\Application.csproj|c:\\users\\yeisonh\\documents\\milescar\\milescar\\src\\application\\cars\\getbyzipcode\\getgetbyzipcodequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{722EA625-AC28-4E08-BC3A-BA352383561B}|src\\Application\\Application.csproj|solutionrelative:src\\application\\cars\\getbyzipcode\\getgetbyzipcodequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{827CD91F-C32A-43A2-BC36-FA957B6F7447}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\yeisonh\\documents\\milescar\\milescar\\src\\infrastructure\\persistence\\repositories\\rentcarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{827CD91F-C32A-43A2-BC36-FA957B6F7447}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\persistence\\repositories\\rentcarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{722EA625-AC28-4E08-BC3A-BA352383561B}|src\\Application\\Application.csproj|c:\\users\\yeisonh\\documents\\milescar\\milescar\\src\\application\\customers\\getall\\getallcustomersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{722EA625-AC28-4E08-BC3A-BA352383561B}|src\\Application\\Application.csproj|solutionrelative:src\\application\\customers\\getall\\getallcustomersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{722EA625-AC28-4E08-BC3A-BA352383561B}|src\\Application\\Application.csproj|c:\\users\\yeisonh\\documents\\milescar\\milescar\\src\\application\\cars\\rentcar\\rentcarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{722EA625-AC28-4E08-BC3A-BA352383561B}|src\\Application\\Application.csproj|solutionrelative:src\\application\\cars\\rentcar\\rentcarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +55,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetCustomerByIdQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Application\\Customers\\GetById\\GetCustomerByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Customers\\GetById\\GetCustomerByIdQueryHandler.cs",
-              "ToolTip": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Application\\Customers\\GetById\\GetCustomerByIdQueryHandler.cs",
-              "RelativeToolTip": "src\\Application\\Customers\\GetById\\GetCustomerByIdQueryHandler.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAcwBwAAAAoAAAA",
+              "Title": "GetRentResponse.cs",
+              "DocumentMoniker": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Application\\Cars\\Common\\GetRentResponse.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Cars\\Common\\GetRentResponse.cs",
+              "ToolTip": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Application\\Cars\\Common\\GetRentResponse.cs",
+              "RelativeToolTip": "src\\Application\\Cars\\Common\\GetRentResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T01:43:12.301Z",
+              "WhenOpened": "2024-03-12T18:41:54.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Web.API\\Controllers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "src\\Web.API\\Controllers\\CustomersController.cs",
-              "ToolTip": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Web.API\\Controllers\\CustomersController.cs",
-              "RelativeToolTip": "src\\Web.API\\Controllers\\CustomersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Web.API\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "src\\Web.API\\Controllers\\CarsController.cs",
+              "ToolTip": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Web.API\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "src\\Web.API\\Controllers\\CarsController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAqwCoAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T01:39:16.073Z",
+              "WhenOpened": "2024-03-12T18:37:27.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Domain\\Cars\\ICarRepository.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Cars\\ICarRepository.cs",
+              "ToolTip": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Domain\\Cars\\ICarRepository.cs",
+              "RelativeToolTip": "src\\Domain\\Cars\\ICarRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T18:37:10.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetGetByZipCodeQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Application\\Cars\\GetByZipCode\\GetGetByZipCodeQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Cars\\GetByZipCode\\GetGetByZipCodeQueryHandler.cs",
+              "ToolTip": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Application\\Cars\\GetByZipCode\\GetGetByZipCodeQueryHandler.cs",
+              "RelativeToolTip": "src\\Application\\Cars\\GetByZipCode\\GetGetByZipCodeQueryHandler.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAArwBUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T18:36:54.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RentCarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Infrastructure\\Persistence\\Repositories\\RentCarRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Persistence\\Repositories\\RentCarRepository.cs",
+              "ToolTip": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Infrastructure\\Persistence\\Repositories\\RentCarRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Persistence\\Repositories\\RentCarRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T18:35:57.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Infrastructure\\Persistence\\Repositories\\CarRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Persistence\\Repositories\\CarRepository.cs",
+              "ToolTip": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Infrastructure\\Persistence\\Repositories\\CarRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Persistence\\Repositories\\CarRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAawBgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T18:34:37.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetAllCustomersQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Application\\Customers\\GetAll\\GetAllCustomersQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Customers\\GetAll\\GetAllCustomersQueryHandler.cs",
+              "ToolTip": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Application\\Customers\\GetAll\\GetAllCustomersQueryHandler.cs",
+              "RelativeToolTip": "src\\Application\\Customers\\GetAll\\GetAllCustomersQueryHandler.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA0wBMAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T18:28:54.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetRentCarQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Application\\Cars\\GetRentCar\\GetRentCarQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Cars\\GetRentCar\\GetRentCarQueryHandler.cs",
+              "ToolTip": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Application\\Cars\\GetRentCar\\GetRentCarQueryHandler.cs",
+              "RelativeToolTip": "src\\Application\\Cars\\GetRentCar\\GetRentCarQueryHandler.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAYwBUAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T18:18:48.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetRentCarQuery.cs",
+              "DocumentMoniker": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Application\\Cars\\GetRentCar\\GetRentCarQuery.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Cars\\GetRentCar\\GetRentCarQuery.cs",
+              "ToolTip": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Application\\Cars\\GetRentCar\\GetRentCarQuery.cs",
+              "RelativeToolTip": "src\\Application\\Cars\\GetRentCar\\GetRentCarQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T18:18:05.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RentCarCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Application\\Cars\\RentCar\\RentCarCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Cars\\RentCar\\RentCarCommandHandler.cs",
+              "ToolTip": "C:\\Users\\yeisonh\\Documents\\MilesCar\\MilesCar\\src\\Application\\Cars\\RentCar\\RentCarCommandHandler.cs",
+              "RelativeToolTip": "src\\Application\\Cars\\RentCar\\RentCarCommandHandler.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAswCkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T18:18:28.421Z",
               "EditorCaption": ""
             }
           ]
